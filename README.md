@@ -126,10 +126,11 @@ O sistema foi concebido para proporcionar uma experiência de configuração sim
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/097e65c1-f66e-42da-a2e5-88e6e0b727ff" width="50%" />
-  <img src="https://github.com/user-attachments/assets/9b9215c5-0ea3-41b2-8d5e-de6fa2d4a007" width="50%" />
-  <img src="https://github.com/user-attachments/assets/62ea3087-e192-4205-b214-415ab849e9a2" width="50%" />
   <img src="https://github.com/user-attachments/assets/7dfb745d-ce33-49eb-b214-76942ffb8555" width="50%" />
+  <img src="https://github.com/user-attachments/assets/62ea3087-e192-4205-b214-415ab849e9a2" width="50%" />
+  <img src="https://github.com/user-attachments/assets/9b9215c5-0ea3-41b2-8d5e-de6fa2d4a007" width="50%" />
+  <img src="https://github.com/user-attachments/assets/097e65c1-f66e-42da-a2e5-88e6e0b727ff" width="50%" />
+
 </p>
 
 
