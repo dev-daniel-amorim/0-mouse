@@ -135,7 +135,7 @@ O sistema foi concebido para proporcionar uma experiência de configuração sim
 
 
 
-### 5. Gerenciamento de Energia
+### 6. Gerenciamento de Energia
 
 O projeto também contempla técnicas de gerenciamento de energia para aumentar a autonomia da bateria.
 
