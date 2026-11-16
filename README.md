@@ -1,7 +1,7 @@
 
-# O-MOUSE — Óculos Inteligentes para Controle do Computador
+# O-MOUSE — Óculos para tetraplígicos (Controle total do Computador)
 
-Desenvolvi o **O-MOUSE**, um dispositivo de tecnologia assistiva que permite controlar o cursor do computador utilizando movimentos da cabeça e piscadas dos olhos, sem a necessidade de utilizar as mãos.
+Desenvolvi o **O-MOUSE**, um dispositivo de tecnologia assistiva que permite controlar o cursor do computador utilizando movimentos da cabeça e piscadas dos olhos, sem a necessidade de utilizar as mãos. Com ele é possível controlar o conputador como um mouse convencional, simulando todas as suas funçoes de botao direito e esquerdo e scroll, cliques simples, duplos, três cliques simula botao direito e etc. Para teclado e digitação indicamos o uso do teclado virtual, 
 
 O projeto tem como principal objetivo proporcionar **acessibilidade, autonomia e inclusão digital**, especialmente para pessoas com limitações motoras severas, como tetraplegia.
 
