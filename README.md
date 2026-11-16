@@ -19,13 +19,20 @@ O dispositivo utiliza o microcontrolador **Seeed Studio XIAO nRF52840 Sense**, e
 
 A proposta é oferecer uma alternativa aos dispositivos tradicionais de entrada, permitindo que pessoas com mobilidade reduzida utilizem computadores com maior independência.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5da7ed36-7fd2-47ed-9842-878685e6d3ca" width="50%" />
+</p>
+<br>
+
+
+
 <br>
 
 ## Tecnologias e Componentes Utilizados
 
-- **XIAO nRF52840 Sense:** microcontrolador ARM Cortex-M4F com Bluetooth Low Energy (BLE).
+- **EsP32 C3 SUPERMINI:** Wifi E Bluetooth Usb-c Risc-v.
 - **LSM6DS3:** sensor de movimento de 6 eixos, com acelerômetro e giroscópio.
-- **APDS9960:** sensor óptico utilizado para detectar piscadas por meio de variações de proximidade.
+- **APDS9940:** sensor óptico utilizado para detectar variações de proximidade.
 - **AO3407:** MOSFET utilizado no gerenciamento da alimentação do sensor óptico.
 - **Bluetooth BLE HID:** protocolo de comunicação que permite ao dispositivo funcionar como mouse Bluetooth.
 - **Bateria recarregável:** alimentação portátil para utilização sem cabos.
