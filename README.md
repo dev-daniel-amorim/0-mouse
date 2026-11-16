@@ -7,7 +7,7 @@ O projeto tem como principal objetivo proporcionar **acessibilidade, autonomia e
 
 | Tutoriais/Título | Descrição/Link Medium | Links/Vídeos YouTube | Links/Códigos fonte |
 | --- | --- | --- | --- |
-| O-MOUSE — Óculos Inteligentes Assistivos | Em desenvolvimento | [Vídeo aqui].(https://youtu.be/0Xy8QtoHRoY?si=2TRkzyhtgwCKuBoa). | Em breve |
+| O-MOUSE — Óculos Inteligentes Assistivos | Em desenvolvimento |  [Vídeo do projeto](https://youtu.be/0Xy8QtoHRoY?si=2TRkzyhtgwCKuBoa) | Em breve |
 
 <br>
 
