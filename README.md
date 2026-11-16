@@ -15,13 +15,15 @@ O projeto tem como principal objetivo proporcionar **acessibilidade, autonomia e
 
 O **O-MOUSE** é um sistema eletrônico embarcado desenvolvido para transformar movimentos naturais da cabeça e piscadas dos olhos em comandos de um mouse convencional.
 
-O dispositivo utiliza o microcontrolador **Seeed Studio XIAO nRF52840 Sense**, equipado com comunicação Bluetooth Low Energy (BLE), em conjunto com sensores de movimento e proximidade.
+O dispositivo utiliza o microcontrolador **ESP32 C3 SUPERMINI**, equipado com comunicação Bluetooth Low Energy (BLE), em conjunto com sensores de movimento e proximidade.
 
 A proposta é oferecer uma alternativa aos dispositivos tradicionais de entrada, permitindo que pessoas com mobilidade reduzida utilizem computadores com maior independência.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5da7ed36-7fd2-47ed-9842-878685e6d3ca" width="50%" />
 </p>
+
+Toda estrutura plastica e de metal do prótotipo foi desenvolvido de forma artesanal em formato de Headset, com auxilio de peças impressas em 3d.
 <br>
 
 
@@ -30,7 +32,7 @@ A proposta é oferecer uma alternativa aos dispositivos tradicionais de entrada,
 
 ## Tecnologias e Componentes Utilizados
 
-- **EsP32 C3 SUPERMINI:** Wifi E Bluetooth Usb-c Risc-v.
+- **ESP32 C3 SUPERMINI:** Wifi E Bluetooth Usb-c Risc-v.
 - **LSM6DS3:** sensor de movimento de 6 eixos, com acelerômetro e giroscópio.
 - **APDS9940:** sensor óptico utilizado para detectar variações de proximidade.
 - **AO3407:** MOSFET utilizado no gerenciamento da alimentação do sensor óptico.
@@ -80,6 +82,57 @@ Entre os parâmetros de calibração estão:
 - Tempo de reconhecimento das piscadas.
 - Ajuste dos limites de detecção do sensor óptico.
 - Calibração da posição neutra da cabeça.
+
+
+
+### 5. Software Web de Configuração e Calibração
+
+Além do hardware e do firmware embarcado, desenvolvi um **software de configuração e calibração do O-MOUSE**, que funciona diretamente no navegador de internet, sem necessidade de instalação de aplicativos.
+
+A interface utiliza a tecnologia **Web Bluetooth API** para estabelecer comunicação sem fio com o microcontrolador XIAO nRF52840 Sense, permitindo configurar e ajustar o funcionamento dos óculos em tempo real.
+
+O software foi desenvolvido para facilitar a personalização do dispositivo de acordo com as necessidades e características motoras de cada usuário.
+
+**Principais recursos do software:**
+
+- **Conexão Bluetooth:** identificação e conexão com o O-MOUSE diretamente pelo navegador.
+- **Monitoramento dos sensores:** visualização das informações de movimento e proximidade recebidas do dispositivo.
+- **Calibração do giroscópio:** ajuste da posição neutra da cabeça para melhorar a precisão do cursor.
+- **Sensibilidade do cursor:** configuração dos movimentos horizontais e verticais.
+- **Zona morta (Deadzone):** ajuste para evitar deslocamentos involuntários do ponteiro.
+- **Suavização dos movimentos:** configuração dos parâmetros utilizados para reduzir oscilações do cursor.
+- **Calibração das piscadas:** ajuste dos limites de detecção do sensor óptico APDS9960.
+- **Configuração dos comandos:** personalização dos parâmetros utilizados no reconhecimento das piscadas.
+- **Armazenamento das configurações:** envio dos parâmetros ao microcontrolador para armazenamento na memória não volátil.
+
+#### Tecnologias Utilizadas no Software
+
+- **HTML5:** estrutura da interface de configuração.
+- **CSS3:** estilização e organização visual.
+- **JavaScript:** implementação das funcionalidades e dos controles.
+- **Web Bluetooth API:** comunicação direta entre navegador e dispositivo.
+- **Bluetooth Low Energy (BLE):** transmissão dos parâmetros e informações dos sensores.
+- **GATT:** utilização de serviços e características BLE para troca de dados entre o software e o firmware.
+
+#### Funcionamento
+
+O usuário acessa a interface Web por um navegador compatível com Web Bluetooth, conecta o O-MOUSE e realiza os ajustes necessários.
+
+As configurações são transmitidas ao microcontrolador por Bluetooth, permitindo calibrar o dispositivo sem a necessidade de reprogramar ou atualizar o firmware a cada alteração.
+
+O sistema foi concebido para proporcionar uma experiência de configuração simples, acessível e personalizada, facilitando a utilização do O-MOUSE por pessoas com diferentes necessidades motoras.
+
+**Diferencial do projeto:** o O-MOUSE combina hardware embarcado, firmware C/C++ e software Web de calibração, formando uma solução integrada de tecnologia assistiva.
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/097e65c1-f66e-42da-a2e5-88e6e0b727ff" width="25%" />
+  <img src="https://github.com/user-attachments/assets/9b9215c5-0ea3-41b2-8d5e-de6fa2d4a007" width="25%" />
+  <img src="https://github.com/user-attachments/assets/62ea3087-e192-4205-b214-415ab849e9a2" width="25%" />
+  <img src="https://github.com/user-attachments/assets/7dfb745d-ce33-49eb-b214-76942ffb8555" width="25%" />
+</p>
+
+
 
 ### 5. Gerenciamento de Energia
 
