@@ -1,13 +1,13 @@
 
-# O-MOUSE — Óculos para tetraplígicos (Controle total do Computador)
+# O-MOUSE — Mouse de cabeça para tetraplégicos (Controle total do Computador)
 
-Desenvolvi o **O-MOUSE**, um dispositivo de tecnologia assistiva que permite controlar o cursor do computador utilizando movimentos da cabeça e piscadas dos olhos, sem a necessidade de utilizar as mãos. Com ele é possível controlar o conputador como um mouse convencional, simulando todas as suas funçoes de botao direito e esquerdo e scroll, cliques simples, duplos, três cliques simula botao direito e etc. Para teclado e digitação indicamos o uso do teclado virtual, 
+Desenvolvi o **O-MOUSE**, um dispositivo de tecnologia assistiva que permite controlar o cursor do computador utilizando movimentos da cabeça e piscadas dos olhos, sem a necessidade de utilizar as mãos. Com ele é possível controlar o conputador como um mouse convencional, simulando todas as suas funçoes de botao direito e esquerdo e scroll, cliques simples, duplos, três cliques simula botao direito e etc. Para teclado e digitação usar o teclado virtual com o o-mouse.
 
 O projeto tem como principal objetivo proporcionar **acessibilidade, autonomia e inclusão digital**, especialmente para pessoas com limitações motoras severas, como tetraplegia.
 
 | Tutoriais/Título | Descrição/Link Medium | Links/Vídeos YouTube | Links/Códigos fonte |
 | --- | --- | --- | --- |
-| O-MOUSE — Óculos Inteligentes Assistivos | Em desenvolvimento |  [Vídeo do projeto](https://youtu.be/0Xy8QtoHRoY?si=2TRkzyhtgwCKuBoa) | Em breve |
+| O-MOUSE — Óculos Inteligentes Assistivos | SEM |  [Vídeo do projeto](https://youtu.be/0Xy8QtoHRoY?si=2TRkzyhtgwCKuBoa) | Privado |
 
 <br>
 
@@ -52,7 +52,7 @@ O sistema utiliza algoritmos de processamento dos sensores para melhorar a preci
 
 ### 2. Reconhecimento de Piscadas
 
-O sensor óptico **APDS9960** é utilizado para identificar piscadas a partir das alterações de proximidade provocadas pelo fechamento dos olhos.
+O sensor óptico **APDS9940** é utilizado para identificar proximidade provocadas pelo fechamento dos olhos.
 
 Essa tecnologia permite implementar comandos como:
 
